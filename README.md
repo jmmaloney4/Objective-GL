@@ -18,7 +18,7 @@ it simply add the following line to your Podfile:
 
 ## Author
 
-Jack Maloney, jmmaloney4@gmail.com
+Jack Maloney
 
 ## License
 
