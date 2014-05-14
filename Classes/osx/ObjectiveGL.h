@@ -7,5 +7,5 @@
 //
 
 #import <Foundation/Foundation.h>
-
+#import "OGLDisplay.h"
 
