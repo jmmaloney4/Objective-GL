@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04A1432519241965009765E2 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04A1432419241965009765E2 /* Cocoa.framework */; };
+		04A1433619241965009765E2 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04A1433519241965009765E2 /* XCTest.framework */; };
+		04A1433719241965009765E2 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04A1432419241965009765E2 /* Cocoa.framework */; };
+		04A1433A19241965009765E2 /* libObjectiveGL.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 04A1432119241965009765E2 /* libObjectiveGL.a */; };
+		04A1434019241965009765E2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 04A1433E19241965009765E2 /* InfoPlist.strings */; };
+		04A1434219241965009765E2 /* ObjectiveGLTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A1434119241965009765E2 /* ObjectiveGLTests.m */; };
+		04E832971924199D00C12BF0 /* ObjectiveGL.h in Headers */ = {isa = PBXBuildFile; fileRef = 04E832951924199D00C12BF0 /* ObjectiveGL.h */; };
+		04E832981924199D00C12BF0 /* ObjectiveGL.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E832961924199D00C12BF0 /* ObjectiveGL.m */; };
+		04E8329B192419B300C12BF0 /* ObjectiveGL-Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 04E8329A192419B300C12BF0 /* ObjectiveGL-Prefix.pch */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04A1433819241965009765E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04A1431919241965009765E2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04A1432019241965009765E2;
+			remoteInfo = ObjectiveGL;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04A1432119241965009765E2 /* libObjectiveGL.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libObjectiveGL.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		04A1432419241965009765E2 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		04A1432719241965009765E2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		04A1432819241965009765E2 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		04A1432919241965009765E2 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		04A1433419241965009765E2 /* ObjectiveGLTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ObjectiveGLTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04A1433519241965009765E2 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		04A1433D19241965009765E2 /* ObjectiveGLTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ObjectiveGLTests-Info.plist"; sourceTree = "<group>"; };
+		04A1433F19241965009765E2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		04A1434119241965009765E2 /* ObjectiveGLTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjectiveGLTests.m; sourceTree = "<group>"; };
+		04E832951924199D00C12BF0 /* ObjectiveGL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ObjectiveGL.h; path = Classes/osx/ObjectiveGL.h; sourceTree = "<group>"; };
+		04E832961924199D00C12BF0 /* ObjectiveGL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ObjectiveGL.m; path = Classes/osx/ObjectiveGL.m; sourceTree = "<group>"; };
+		04E8329A192419B300C12BF0 /* ObjectiveGL-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "ObjectiveGL-Prefix.pch"; path = "ObjectiveGL/ObjectiveGL-Prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04A1431E19241965009765E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04A1432519241965009765E2 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04A1433119241965009765E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04A1433719241965009765E2 /* Cocoa.framework in Frameworks */,
+				04A1433A19241965009765E2 /* libObjectiveGL.a in Frameworks */,
+				04A1433619241965009765E2 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04A1431819241965009765E2 = {
+			isa = PBXGroup;
+			children = (
+				04E832951924199D00C12BF0 /* ObjectiveGL.h */,
+				04E832961924199D00C12BF0 /* ObjectiveGL.m */,
+				04E83299192419A300C12BF0 /* Supporting Files */,
+				04A1433B19241965009765E2 /* ObjectiveGLTests */,
+				04A1432319241965009765E2 /* Frameworks */,
+				04A1432219241965009765E2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04A1432219241965009765E2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04A1432119241965009765E2 /* libObjectiveGL.a */,
+				04A1433419241965009765E2 /* ObjectiveGLTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04A1432319241965009765E2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				04A1432419241965009765E2 /* Cocoa.framework */,
+				04A1433519241965009765E2 /* XCTest.framework */,
+				04A1432619241965009765E2 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		04A1432619241965009765E2 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				04A1432719241965009765E2 /* Foundation.framework */,
+				04A1432819241965009765E2 /* CoreData.framework */,
+				04A1432919241965009765E2 /* AppKit.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		04A1433B19241965009765E2 /* ObjectiveGLTests */ = {
+			isa = PBXGroup;
+			children = (
+				04A1434119241965009765E2 /* ObjectiveGLTests.m */,
+				04A1433C19241965009765E2 /* Supporting Files */,
+			);
+			path = ObjectiveGLTests;
+			sourceTree = "<group>";
+		};
+		04A1433C19241965009765E2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04A1433D19241965009765E2 /* ObjectiveGLTests-Info.plist */,
+				04A1433E19241965009765E2 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		04E83299192419A300C12BF0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04E8329A192419B300C12BF0 /* ObjectiveGL-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		04A1431F19241965009765E2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04E8329B192419B300C12BF0 /* ObjectiveGL-Prefix.pch in Headers */,
+				04E832971924199D00C12BF0 /* ObjectiveGL.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		04A1432019241965009765E2 /* ObjectiveGL */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04A1434519241965009765E2 /* Build configuration list for PBXNativeTarget "ObjectiveGL" */;
+			buildPhases = (
+				04A1431D19241965009765E2 /* Sources */,
+				04A1431E19241965009765E2 /* Frameworks */,
+				04A1431F19241965009765E2 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ObjectiveGL;
+			productName = ObjectiveGL;
+			productReference = 04A1432119241965009765E2 /* libObjectiveGL.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		04A1433319241965009765E2 /* ObjectiveGLTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04A1434819241965009765E2 /* Build configuration list for PBXNativeTarget "ObjectiveGLTests" */;
+			buildPhases = (
+				04A1433019241965009765E2 /* Sources */,
+				04A1433119241965009765E2 /* Frameworks */,
+				04A1433219241965009765E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04A1433919241965009765E2 /* PBXTargetDependency */,
+			);
+			name = ObjectiveGLTests;
+			productName = ObjectiveGLTests;
+			productReference = 04A1433419241965009765E2 /* ObjectiveGLTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04A1431919241965009765E2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = IV;
+			};
+			buildConfigurationList = 04A1431C19241965009765E2 /* Build configuration list for PBXProject "ObjectiveGL" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 04A1431819241965009765E2;
+			productRefGroup = 04A1432219241965009765E2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04A1432019241965009765E2 /* ObjectiveGL */,
+				04A1433319241965009765E2 /* ObjectiveGLTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04A1433219241965009765E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04A1434019241965009765E2 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04A1431D19241965009765E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04E832981924199D00C12BF0 /* ObjectiveGL.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04A1433019241965009765E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04A1434219241965009765E2 /* ObjectiveGLTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04A1433919241965009765E2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04A1432019241965009765E2 /* ObjectiveGL */;
+			targetProxy = 04A1433819241965009765E2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		04A1433E19241965009765E2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04A1433F19241965009765E2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04A1434319241965009765E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		04A1434419241965009765E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		04A1434619241965009765E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ObjectiveGL/ObjectiveGL-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		04A1434719241965009765E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ObjectiveGL/ObjectiveGL-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		04A1434919241965009765E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ObjectiveGL/ObjectiveGL-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ObjectiveGLTests/ObjectiveGLTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		04A1434A19241965009765E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ObjectiveGL/ObjectiveGL-Prefix.pch";
+				INFOPLIST_FILE = "ObjectiveGLTests/ObjectiveGLTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04A1431C19241965009765E2 /* Build configuration list for PBXProject "ObjectiveGL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04A1434319241965009765E2 /* Debug */,
+				04A1434419241965009765E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04A1434519241965009765E2 /* Build configuration list for PBXNativeTarget "ObjectiveGL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04A1434619241965009765E2 /* Debug */,
+				04A1434719241965009765E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04A1434819241965009765E2 /* Build configuration list for PBXNativeTarget "ObjectiveGLTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04A1434919241965009765E2 /* Debug */,
+				04A1434A19241965009765E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04A1431919241965009765E2 /* Project object */;
+}
