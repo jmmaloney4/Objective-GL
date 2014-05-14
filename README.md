@@ -1,0 +1,26 @@
+# objective-gl
+
+[![Version](http://cocoapod-badges.herokuapp.com/v/objective-gl/badge.png)](http://cocoadocs.org/docsets/objective-gl)
+[![Platform](http://cocoapod-badges.herokuapp.com/p/objective-gl/badge.png)](http://cocoadocs.org/docsets/objective-gl)
+
+## Usage
+
+To run the example project; clone the repo, and run `pod install` from the Example directory first.
+
+## Requirements
+
+## Installation
+
+objective-gl is available through [CocoaPods](http://cocoapods.org), to install
+it simply add the following line to your Podfile:
+
+    pod "objective-gl"
+
+## Author
+
+Jack Maloney, jmmaloney4@gmail.com
+
+## License
+
+objective-gl is available under the MIT license. See the LICENSE file for more info.
+
