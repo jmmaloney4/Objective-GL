@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0479D35E19244CB000AACE4A /* glfw3.h in Headers */ = {isa = PBXBuildFile; fileRef = 0479D35219244CB000AACE4A /* glfw3.h */; };
+		0479D35F19244CB000AACE4A /* glfw3native.h in Headers */ = {isa = PBXBuildFile; fileRef = 0479D35319244CB000AACE4A /* glfw3native.h */; };
+		0479D36019244CB000AACE4A /* libglfw3.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0479D35B19244CB000AACE4A /* libglfw3.a */; };
 		04A1432519241965009765E2 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04A1432419241965009765E2 /* Cocoa.framework */; };
 		04A1433619241965009765E2 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04A1433519241965009765E2 /* XCTest.framework */; };
 		04A1433719241965009765E2 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04A1432419241965009765E2 /* Cocoa.framework */; };
@@ -16,9 +19,6 @@
 		04E832971924199D00C12BF0 /* ObjectiveGL.h in Headers */ = {isa = PBXBuildFile; fileRef = 04E832951924199D00C12BF0 /* ObjectiveGL.h */; };
 		04E832981924199D00C12BF0 /* ObjectiveGL.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E832961924199D00C12BF0 /* ObjectiveGL.m */; };
 		04E8329B192419B300C12BF0 /* ObjectiveGL-Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 04E8329A192419B300C12BF0 /* ObjectiveGL-Prefix.pch */; };
-		04E832AB19241B0300C12BF0 /* glfw3.h in Headers */ = {isa = PBXBuildFile; fileRef = 04E8329F19241B0300C12BF0 /* glfw3.h */; };
-		04E832AC19241B0300C12BF0 /* glfw3native.h in Headers */ = {isa = PBXBuildFile; fileRef = 04E832A019241B0300C12BF0 /* glfw3native.h */; };
-		04E832AD19241B0300C12BF0 /* libglfw3.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 04E832A819241B0300C12BF0 /* libglfw3.a */; };
 		04E832B019241B2500C12BF0 /* OGLDisplay.h in Headers */ = {isa = PBXBuildFile; fileRef = 04E832AE19241B2500C12BF0 /* OGLDisplay.h */; };
 		04E832B119241B2500C12BF0 /* OGLDisplay.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E832AF19241B2500C12BF0 /* OGLDisplay.m */; };
 		04E832B419241FCB00C12BF0 /* OGLApp.h in Headers */ = {isa = PBXBuildFile; fileRef = 04E832B219241FCB00C12BF0 /* OGLApp.h */; };
@@ -38,6 +38,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0479D35219244CB000AACE4A /* glfw3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = glfw3.h; sourceTree = "<group>"; };
+		0479D35319244CB000AACE4A /* glfw3native.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = glfw3native.h; sourceTree = "<group>"; };
+		0479D35719244CB000AACE4A /* glfwConfig.cmake */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = glfwConfig.cmake; sourceTree = "<group>"; };
+		0479D35819244CB000AACE4A /* glfwConfigVersion.cmake */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = glfwConfigVersion.cmake; sourceTree = "<group>"; };
+		0479D35919244CB000AACE4A /* glfwTargets-noconfig.cmake */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "glfwTargets-noconfig.cmake"; sourceTree = "<group>"; };
+		0479D35A19244CB000AACE4A /* glfwTargets.cmake */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = glfwTargets.cmake; sourceTree = "<group>"; };
+		0479D35B19244CB000AACE4A /* libglfw3.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libglfw3.a; sourceTree = "<group>"; };
+		0479D35D19244CB000AACE4A /* glfw3.pc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = glfw3.pc; sourceTree = "<group>"; };
 		04A1432119241965009765E2 /* libObjectiveGL.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libObjectiveGL.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		04A1432419241965009765E2 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		04A1432719241965009765E2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -51,14 +59,6 @@
 		04E832951924199D00C12BF0 /* ObjectiveGL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ObjectiveGL.h; path = Classes/osx/ObjectiveGL.h; sourceTree = "<group>"; };
 		04E832961924199D00C12BF0 /* ObjectiveGL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ObjectiveGL.m; path = Classes/osx/ObjectiveGL.m; sourceTree = "<group>"; };
 		04E8329A192419B300C12BF0 /* ObjectiveGL-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "ObjectiveGL-Prefix.pch"; path = "ObjectiveGL/ObjectiveGL-Prefix.pch"; sourceTree = "<group>"; };
-		04E8329F19241B0300C12BF0 /* glfw3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = glfw3.h; sourceTree = "<group>"; };
-		04E832A019241B0300C12BF0 /* glfw3native.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = glfw3native.h; sourceTree = "<group>"; };
-		04E832A419241B0300C12BF0 /* glfwConfig.cmake */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = glfwConfig.cmake; sourceTree = "<group>"; };
-		04E832A519241B0300C12BF0 /* glfwConfigVersion.cmake */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = glfwConfigVersion.cmake; sourceTree = "<group>"; };
-		04E832A619241B0300C12BF0 /* glfwTargets-noconfig.cmake */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "glfwTargets-noconfig.cmake"; sourceTree = "<group>"; };
-		04E832A719241B0300C12BF0 /* glfwTargets.cmake */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = glfwTargets.cmake; sourceTree = "<group>"; };
-		04E832A819241B0300C12BF0 /* libglfw3.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libglfw3.a; sourceTree = "<group>"; };
-		04E832AA19241B0300C12BF0 /* glfw3.pc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = glfw3.pc; sourceTree = "<group>"; };
 		04E832AE19241B2500C12BF0 /* OGLDisplay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OGLDisplay.h; path = Classes/osx/OGLDisplay.h; sourceTree = "<group>"; };
 		04E832AF19241B2500C12BF0 /* OGLDisplay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OGLDisplay.m; path = Classes/osx/OGLDisplay.m; sourceTree = "<group>"; };
 		04E832B219241FCB00C12BF0 /* OGLApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OGLApp.h; path = Classes/osx/OGLApp.h; sourceTree = "<group>"; };
@@ -73,7 +73,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				04A1432519241965009765E2 /* Cocoa.framework in Frameworks */,
-				04E832AD19241B0300C12BF0 /* libglfw3.a in Frameworks */,
+				0479D36019244CB000AACE4A /* libglfw3.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,6 +90,70 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0479D34F19244CB000AACE4A /* GLFW */ = {
+			isa = PBXGroup;
+			children = (
+				0479D35019244CB000AACE4A /* include */,
+				0479D35419244CB000AACE4A /* lib */,
+			);
+			name = GLFW;
+			path = Classes/osx/GLFW;
+			sourceTree = "<group>";
+		};
+		0479D35019244CB000AACE4A /* include */ = {
+			isa = PBXGroup;
+			children = (
+				0479D35119244CB000AACE4A /* GLFW */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		0479D35119244CB000AACE4A /* GLFW */ = {
+			isa = PBXGroup;
+			children = (
+				0479D35219244CB000AACE4A /* glfw3.h */,
+				0479D35319244CB000AACE4A /* glfw3native.h */,
+			);
+			path = GLFW;
+			sourceTree = "<group>";
+		};
+		0479D35419244CB000AACE4A /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				0479D35519244CB000AACE4A /* cmake */,
+				0479D35B19244CB000AACE4A /* libglfw3.a */,
+				0479D35C19244CB000AACE4A /* pkgconfig */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		0479D35519244CB000AACE4A /* cmake */ = {
+			isa = PBXGroup;
+			children = (
+				0479D35619244CB000AACE4A /* glfw */,
+			);
+			path = cmake;
+			sourceTree = "<group>";
+		};
+		0479D35619244CB000AACE4A /* glfw */ = {
+			isa = PBXGroup;
+			children = (
+				0479D35719244CB000AACE4A /* glfwConfig.cmake */,
+				0479D35819244CB000AACE4A /* glfwConfigVersion.cmake */,
+				0479D35919244CB000AACE4A /* glfwTargets-noconfig.cmake */,
+				0479D35A19244CB000AACE4A /* glfwTargets.cmake */,
+			);
+			path = glfw;
+			sourceTree = "<group>";
+		};
+		0479D35C19244CB000AACE4A /* pkgconfig */ = {
+			isa = PBXGroup;
+			children = (
+				0479D35D19244CB000AACE4A /* glfw3.pc */,
+			);
+			path = pkgconfig;
+			sourceTree = "<group>";
+		};
 		04A1431819241965009765E2 = {
 			isa = PBXGroup;
 			children = (
@@ -101,7 +165,7 @@
 				04E832B319241FCB00C12BF0 /* OGLApp.m */,
 				04E832B619243E0D00C12BF0 /* OGLFPSTimeController.h */,
 				04E832B719243E0D00C12BF0 /* OGLFPSTimeController.m */,
-				04E8329C19241B0300C12BF0 /* GLFW */,
+				0479D34F19244CB000AACE4A /* GLFW */,
 				04E83299192419A300C12BF0 /* Supporting Files */,
 				04A1433B19241965009765E2 /* ObjectiveGLTests */,
 				04A1432319241965009765E2 /* Frameworks */,
@@ -164,69 +228,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		04E8329C19241B0300C12BF0 /* GLFW */ = {
-			isa = PBXGroup;
-			children = (
-				04E8329D19241B0300C12BF0 /* include */,
-				04E832A119241B0300C12BF0 /* lib */,
-			);
-			path = GLFW;
-			sourceTree = "<group>";
-		};
-		04E8329D19241B0300C12BF0 /* include */ = {
-			isa = PBXGroup;
-			children = (
-				04E8329E19241B0300C12BF0 /* GLFW */,
-			);
-			path = include;
-			sourceTree = "<group>";
-		};
-		04E8329E19241B0300C12BF0 /* GLFW */ = {
-			isa = PBXGroup;
-			children = (
-				04E8329F19241B0300C12BF0 /* glfw3.h */,
-				04E832A019241B0300C12BF0 /* glfw3native.h */,
-			);
-			path = GLFW;
-			sourceTree = "<group>";
-		};
-		04E832A119241B0300C12BF0 /* lib */ = {
-			isa = PBXGroup;
-			children = (
-				04E832A219241B0300C12BF0 /* cmake */,
-				04E832A819241B0300C12BF0 /* libglfw3.a */,
-				04E832A919241B0300C12BF0 /* pkgconfig */,
-			);
-			path = lib;
-			sourceTree = "<group>";
-		};
-		04E832A219241B0300C12BF0 /* cmake */ = {
-			isa = PBXGroup;
-			children = (
-				04E832A319241B0300C12BF0 /* glfw */,
-			);
-			path = cmake;
-			sourceTree = "<group>";
-		};
-		04E832A319241B0300C12BF0 /* glfw */ = {
-			isa = PBXGroup;
-			children = (
-				04E832A419241B0300C12BF0 /* glfwConfig.cmake */,
-				04E832A519241B0300C12BF0 /* glfwConfigVersion.cmake */,
-				04E832A619241B0300C12BF0 /* glfwTargets-noconfig.cmake */,
-				04E832A719241B0300C12BF0 /* glfwTargets.cmake */,
-			);
-			path = glfw;
-			sourceTree = "<group>";
-		};
-		04E832A919241B0300C12BF0 /* pkgconfig */ = {
-			isa = PBXGroup;
-			children = (
-				04E832AA19241B0300C12BF0 /* glfw3.pc */,
-			);
-			path = pkgconfig;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -234,10 +235,10 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04E832AB19241B0300C12BF0 /* glfw3.h in Headers */,
+				0479D35E19244CB000AACE4A /* glfw3.h in Headers */,
 				04E832B419241FCB00C12BF0 /* OGLApp.h in Headers */,
-				04E832AC19241B0300C12BF0 /* glfw3native.h in Headers */,
 				04E832B019241B2500C12BF0 /* OGLDisplay.h in Headers */,
+				0479D35F19244CB000AACE4A /* glfw3native.h in Headers */,
 				04E832B819243E0D00C12BF0 /* OGLFPSTimeController.h in Headers */,
 				04E8329B192419B300C12BF0 /* ObjectiveGL-Prefix.pch in Headers */,
 				04E832971924199D00C12BF0 /* ObjectiveGL.h in Headers */,
@@ -440,6 +441,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/GLFW/lib",
+					"$(PROJECT_DIR)/Classes/osx/GLFW/lib",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -453,6 +455,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/GLFW/lib",
+					"$(PROJECT_DIR)/Classes/osx/GLFW/lib",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};

@@ -13,10 +13,12 @@ Pod::Spec.new do |s|
   s.osx.deployment_target = '10.7'
   s.requires_arc = true
 
-  s.source_files = 'Classes/osx'
+  s.source_files = 'Classes/osx', 'Classes/osx/GLFW/lib'
   #s.resources = 'Assets/*.png'
+
+  s.xcconfig = { 'LIBRARY_SEARCH_PATHS' => "$(SRCROOT)/GLFW/lib/" }
 
   # s.ios.exclude_files = 'Classes/osx'
   # s.osx.exclude_files = 'Classes/ios'
-  # s.public_header_files = 'Classes/**/*.h'
+  # s.public_header_files = 'Classes/osx/ObjectiveGL.h'
 end
