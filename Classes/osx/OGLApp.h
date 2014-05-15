@@ -7,21 +7,33 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "OGLFPSTimeController.h"
+#import "OGLDisplay.h"
 
 // ABSTRACT CLASS, Cannot Be Instantiated
 @interface OGLApp : NSObject
 
-// Override this method in subclass, it gets called every time the apps loop runs
--(void) loop;
-
-// Override this method in subclass, The key callback method, gets called every time the app loops
--(void) keyCallback;
-
-// Override this method in subclass, The mouse callback method, gets called every time the app loops
--(void) mouseCallback;
+@property (nonatomic, readonly, strong) OGLFPSTimeController* fpstc;
+@property (nonatomic, readonly, strong) OGLDisplay* display;
 
 // Starts the app's loop, will block until app exits
 -(void) start;
 
+// Called in start at the begenning,
+// used to run initalazation OpenGL code
+-(void) initalizeOpenGL;
+
+//################################
+//### Implement In Subclass ######
+//################################
+
+// gets called every time the apps loop runs, put your OpenGL loop code here
+-(void) loop;
+
+// The key callback method, gets called every time the app loops
+-(void) keyCallback;
+
+// The mouse callback method, gets called every time the app loops
+-(void) mouseCallback;
 
 @end

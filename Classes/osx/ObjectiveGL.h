@@ -9,3 +9,6 @@
 #import <Foundation/Foundation.h>
 #import "OGLDisplay.h"
 #import "OGLApp.h"
+
+// The Objective-GL version
+static NSString* OGL_VERSION = @"0.1.0";
