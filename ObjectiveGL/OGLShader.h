@@ -13,4 +13,11 @@
 /** the text containing the shader code */
 @property (nonatomic, readonly, strong) NSString* contents;
 
+/** the opengl shader representation */
+@property (nonatomic, readonly) GLuint glShader;
+
+- (instancetype)initWithFile:(NSString*) path andType:(GLenum) type;
+
+- (instancetype)initWithContents:(NSString*) contents andType:(GLenum) type;
+
 @end

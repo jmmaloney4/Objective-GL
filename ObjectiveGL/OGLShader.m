@@ -7,10 +7,12 @@
 //
 
 #import "OGLShader.h"
+#import "glfw3.h"
 
 @interface OGLShader ()
 
 @property (nonatomic, readwrite, strong) NSString* contents;
+@property (nonatomic, readwrite) GLuint glShader;
 
 @end
 
@@ -21,20 +23,34 @@
     return nil;
 }
 
-- (instancetype)initWithFile:(NSString*) path
+- (instancetype)initWithFile:(NSString*) path andType:(GLenum) type
 {
     self = [super init];
     if (self) {
-        self = [self initWithContents:[NSString stringWithContentsOfFile:path encoding:NSUTF8StringEncoding error:nil]];
+        self = [self initWithContents:[NSString stringWithContentsOfFile:path encoding:NSUTF8StringEncoding error:nil] andType:type];
     }
     return self;
 }
 
-- (instancetype)initWithContents:(NSString*) contents
+- (instancetype)initWithContents:(NSString*) contents andType:(GLenum) type
 {
     self = [super init];
     if (self) {
         self.contents = contents;
+        self.glShader = glCreateShader(type);
+
+        const char* src = [self.contents UTF8String];
+        glShaderSource(self.glShader, 1, &src, NULL);
+
+        glCompileShader(self.glShader);
+
+        // Check Compile Status
+        GLint status;
+        glGetShaderiv(self.glShader, GL_COMPILE_STATUS, &status);
+        if (status != GL_TRUE) {
+            return nil;
+        }
+
     }
     return self;
 }
