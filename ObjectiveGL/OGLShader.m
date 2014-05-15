@@ -12,7 +12,7 @@
 @interface OGLShader ()
 
 @property (nonatomic, readwrite, strong) NSString* contents;
-@property (nonatomic, readwrite) GLuint glShader;
+@property (nonatomic, readwrite) GLuint shader;
 
 @end
 
@@ -37,22 +37,30 @@
     self = [super init];
     if (self) {
         self.contents = contents;
-        self.glShader = glCreateShader(type);
+        self.shader = glCreateShader(type);
 
         const char* src = [self.contents UTF8String];
-        glShaderSource(self.glShader, 1, &src, NULL);
+        glShaderSource(self.shader, 1, &src, NULL);
 
-        glCompileShader(self.glShader);
+        // compile the shader
+        glCompileShader(self.shader);
 
         // Check Compile Status
         GLint status;
-        glGetShaderiv(self.glShader, GL_COMPILE_STATUS, &status);
+        glGetShaderiv(self.shader, GL_COMPILE_STATUS, &status);
         if (status != GL_TRUE) {
             return nil;
         }
 
+        // link the shader
+        glLinkProgram(self.shader);
+
     }
     return self;
+}
+
+-(void) use {
+    glUseProgram(self.shader);
 }
 
 @end
