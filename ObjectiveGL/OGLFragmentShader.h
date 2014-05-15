@@ -10,4 +10,7 @@
 
 @interface OGLFragmentShader : OGLShader
 
+-(instancetype) initWithContents:(NSString *)contents;
+-(instancetype) initWithFile:(NSString *)path;
+
 @end

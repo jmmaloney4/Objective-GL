@@ -7,7 +7,18 @@
 //
 
 #import "OGLVertexShader.h"
+#import "glfw3.h"
 
 @implementation OGLVertexShader
+
+-(instancetype) initWithFile:(NSString *)path {
+    self = [self initWithFile:path andType:GL_VERTEX_SHADER];
+    return self;
+}
+
+-(instancetype) initWithContents:(NSString *)contents {
+    self = [self initWithContents:contents andType:GL_VERTEX_SHADER];
+    return self;
+}
 
 @end
