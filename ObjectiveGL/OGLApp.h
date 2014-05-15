@@ -39,6 +39,9 @@
  used to run initalazation OpenGL code */
 -(void) initalizeOpenGL;
 
+/** gets the current FPS the apps display is running at */
+-(int) getFPS;
+
 //################################
 //### Implement In Subclass ######
 //################################

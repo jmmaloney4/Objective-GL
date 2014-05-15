@@ -57,6 +57,10 @@
     exit(0);
 }
 
+-(int) getFPS {
+    return self.fpstc.currentFPS;
+}
+
 //################################
 //### Implement In Subclass ######
 //################################
