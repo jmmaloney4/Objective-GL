@@ -11,9 +11,16 @@
 
 @interface OGLDisplay : NSObject
 
+/** The GLFWwindow that this display uses */
 @property (nonatomic, readonly) GLFWwindow* window;
+
+/** the window title */
 @property (nonatomic, readonly, strong) NSString* title;
+
+/** width of the window */
 @property (nonatomic, readonly) int width;
+
+/** height of the window */
 @property (nonatomic, readonly) int height;
 
 @end

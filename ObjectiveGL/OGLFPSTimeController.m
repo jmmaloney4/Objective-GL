@@ -13,7 +13,7 @@
 
 @property (nonatomic, readwrite) int tmpFPS;
 @property (nonatomic, readwrite) int currentFPS;
-@property (nonatomic, readwrite) long lastFPS;
+@property (nonatomic, readwrite) long timeLastFPS;
 @property (nonatomic, readwrite) long timeLastFrame;
 
 @end
@@ -36,7 +36,7 @@ long getTime() {
     self = [super init];
     if (self) {
         self.currentFPS = 60;
-        self.lastFPS = getTime();
+        self.timeLastFPS = getTime();
     }
     return self;
 }
@@ -48,10 +48,10 @@ long getTime() {
 
 /** called every frame to calculate FPS */
 -(void) frame {
-    if (getTime() - self.lastFPS > 500) {
+    if (getTime() - self.timeLastFPS > 500) {
         self.currentFPS = self.tmpFPS * 2;
         self.tmpFPS = 0;
-        self.lastFPS += 500;
+        self.timeLastFPS += 500;
     }
     self.tmpFPS++;
 

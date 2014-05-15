@@ -128,13 +128,13 @@
 		049747D9192455C300F66785 /* ObjectiveGL */ = {
 			isa = PBXGroup;
 			children = (
+				049747DC192455C300F66785 /* ObjectiveGL.h */,
 				0497480C1924561F00F66785 /* OGLApp.h */,
 				0497480D1924561F00F66785 /* OGLApp.m */,
 				0497480E1924561F00F66785 /* OGLDisplay.h */,
 				0497480F1924561F00F66785 /* OGLDisplay.m */,
 				049748101924561F00F66785 /* OGLFPSTimeController.h */,
 				049748111924561F00F66785 /* OGLFPSTimeController.m */,
-				049747DC192455C300F66785 /* ObjectiveGL.h */,
 				049747DA192455C300F66785 /* Supporting Files */,
 			);
 			path = ObjectiveGL;
@@ -233,7 +233,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-
 		049747CE192455C300F66785 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -514,6 +513,7 @@
 				049747F6192455C300F66785 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		049747F7192455C300F66785 /* Build configuration list for PBXNativeTarget "ObjectiveGLTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +522,7 @@
 				049747F9192455C300F66785 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

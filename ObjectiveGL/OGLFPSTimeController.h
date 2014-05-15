@@ -12,9 +12,16 @@
 
 long getTime();
 
+/** a temporary location for FPS being calculated, not actual FPS */
 @property (nonatomic, readonly) int tmpFPS;
+
+/** The current FPS */
 @property (nonatomic, readonly) int currentFPS;
-@property (nonatomic, readonly) long lastFPS;
+
+/** the value of getTime() the last time FPS were calculated */
+@property (nonatomic, readonly) long timeLastFPS;
+
+/** the value of getTime() last frame */
 @property (nonatomic, readonly) long timeLastFrame;
 
 -(void) frame;
