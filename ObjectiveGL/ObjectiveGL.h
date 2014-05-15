@@ -23,6 +23,7 @@
 #import "OGLDisplay.h"
 #import "OGLApp.h"
 #import "glfw3.h"
+#import "OGLGLPrimitive.h"
 
 // The Objective-GL version
 #define OGL_VERSION 0.1.0

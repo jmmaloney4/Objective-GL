@@ -46,6 +46,7 @@
         self.window = glfwCreateWindow(self.width, self.height, [self.title UTF8String], NULL, NULL);
         glfwMakeContextCurrent(self.window);
     }
+    clock();
     return self;
 }
 

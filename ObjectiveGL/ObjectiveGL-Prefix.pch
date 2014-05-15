@@ -6,4 +6,7 @@
 
 #ifdef __OBJC__
     #import <Cocoa/Cocoa.h>
+    #import "ObjectiveGL.h"
 #endif
+
+#import "glfw3.h"
