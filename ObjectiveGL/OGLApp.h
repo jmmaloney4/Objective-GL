@@ -23,6 +23,11 @@
 #import "OGLFPSTimeController.h"
 #import "OGLDisplay.h"
 
+/*
+ *  Subclass this class, and reimplement the methods as described below.
+ *  Then run [app start] to start the app and open the window.
+ */
+
 // ABSTRACT CLASS, Cannot Be Instantiated
 @interface OGLApp : NSObject
 
