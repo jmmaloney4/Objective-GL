@@ -10,6 +10,7 @@
 
 @interface OGLShader : NSObject
 
+/** the text containing the shader code */
 @property (nonatomic, readonly, strong) NSString* contents;
 
 @end

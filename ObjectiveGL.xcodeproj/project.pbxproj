@@ -24,6 +24,10 @@
 		049748171924561F00F66785 /* OGLFPSTimeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 049748111924561F00F66785 /* OGLFPSTimeController.m */; };
 		04E920D319246A490094924E /* OGLShader.h in Headers */ = {isa = PBXBuildFile; fileRef = 04E920D119246A490094924E /* OGLShader.h */; };
 		04E920D419246A490094924E /* OGLShader.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E920D219246A490094924E /* OGLShader.m */; };
+		04E920D719246B5B0094924E /* OGLVertexShader.h in Headers */ = {isa = PBXBuildFile; fileRef = 04E920D519246B5B0094924E /* OGLVertexShader.h */; };
+		04E920D819246B5B0094924E /* OGLVertexShader.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E920D619246B5B0094924E /* OGLVertexShader.m */; };
+		04E920DB19246B6D0094924E /* OGLFragmentShader.h in Headers */ = {isa = PBXBuildFile; fileRef = 04E920D919246B6D0094924E /* OGLFragmentShader.h */; };
+		04E920DC19246B6D0094924E /* OGLFragmentShader.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E920DA19246B6D0094924E /* OGLFragmentShader.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +69,10 @@
 		049748111924561F00F66785 /* OGLFPSTimeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OGLFPSTimeController.m; sourceTree = "<group>"; };
 		04E920D119246A490094924E /* OGLShader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OGLShader.h; sourceTree = "<group>"; };
 		04E920D219246A490094924E /* OGLShader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OGLShader.m; sourceTree = "<group>"; };
+		04E920D519246B5B0094924E /* OGLVertexShader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OGLVertexShader.h; sourceTree = "<group>"; };
+		04E920D619246B5B0094924E /* OGLVertexShader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OGLVertexShader.m; sourceTree = "<group>"; };
+		04E920D919246B6D0094924E /* OGLFragmentShader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OGLFragmentShader.h; sourceTree = "<group>"; };
+		04E920DA19246B6D0094924E /* OGLFragmentShader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OGLFragmentShader.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +149,10 @@
 				049748111924561F00F66785 /* OGLFPSTimeController.m */,
 				04E920D119246A490094924E /* OGLShader.h */,
 				04E920D219246A490094924E /* OGLShader.m */,
+				04E920D519246B5B0094924E /* OGLVertexShader.h */,
+				04E920D619246B5B0094924E /* OGLVertexShader.m */,
+				04E920D919246B6D0094924E /* OGLFragmentShader.h */,
+				04E920DA19246B6D0094924E /* OGLFragmentShader.m */,
 				049747DA192455C300F66785 /* Supporting Files */,
 			);
 			path = ObjectiveGL;
@@ -246,8 +258,10 @@
 				049748161924561F00F66785 /* OGLFPSTimeController.h in Headers */,
 				049748091924561200F66785 /* glfw3.h in Headers */,
 				04E920D319246A490094924E /* OGLShader.h in Headers */,
+				04E920D719246B5B0094924E /* OGLVertexShader.h in Headers */,
 				049748121924561F00F66785 /* OGLApp.h in Headers */,
 				049748141924561F00F66785 /* OGLDisplay.h in Headers */,
+				04E920DB19246B6D0094924E /* OGLFragmentShader.h in Headers */,
 				0497480A1924561200F66785 /* glfw3native.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -336,7 +350,9 @@
 				049748131924561F00F66785 /* OGLApp.m in Sources */,
 				049748151924561F00F66785 /* OGLDisplay.m in Sources */,
 				049748171924561F00F66785 /* OGLFPSTimeController.m in Sources */,
+				04E920DC19246B6D0094924E /* OGLFragmentShader.m in Sources */,
 				04E920D419246A490094924E /* OGLShader.m in Sources */,
+				04E920D819246B5B0094924E /* OGLVertexShader.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
