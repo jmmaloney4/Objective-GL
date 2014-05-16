@@ -21,5 +21,8 @@
 # THE SOFTWARE.
 
 echo "Building..."
-xcodebuild -project ./ObjectiveGL.xcodeproj -scheme ObjectiveGL -configuration Release CONFIGURATION_BUILD_DIR=./Build
-
+xcodebuild -project ./ObjectiveGL.xcodeproj -scheme ObjectiveGL -configuration Release CONFIGURATION_BUILD_DIR=./Build > /dev/null 2>&1
+mkdir ./lib ./include > /dev/null 2>&1
+cp ./Build/libObjectiveGL.a ./lib/
+cp ./ObjectiveGL/ObjectiveGL.h ./include/
+echo "Done."
