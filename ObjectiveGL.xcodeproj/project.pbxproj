@@ -24,16 +24,8 @@
 		049748171924561F00F66785 /* OGLFPSTimeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 049748111924561F00F66785 /* OGLFPSTimeController.m */; };
 		04AAF009192553090030CB81 /* OGLVertexBufferObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 04AAF007192553090030CB81 /* OGLVertexBufferObject.h */; };
 		04AAF00A192553090030CB81 /* OGLVertexBufferObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AAF008192553090030CB81 /* OGLVertexBufferObject.m */; };
-		04AAF011192554680030CB81 /* OGLGLPrimitive.h in Headers */ = {isa = PBXBuildFile; fileRef = 04AAF00F192554680030CB81 /* OGLGLPrimitive.h */; };
-		04AAF012192554680030CB81 /* OGLGLPrimitive.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AAF010192554680030CB81 /* OGLGLPrimitive.m */; };
-		04AAF0151925548A0030CB81 /* OGLuint.h in Headers */ = {isa = PBXBuildFile; fileRef = 04AAF0131925548A0030CB81 /* OGLuint.h */; };
-		04AAF0161925548A0030CB81 /* OGLuint.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AAF0141925548A0030CB81 /* OGLuint.m */; };
-		04AAF019192555B10030CB81 /* OGLint.h in Headers */ = {isa = PBXBuildFile; fileRef = 04AAF017192555B10030CB81 /* OGLint.h */; };
-		04AAF01A192555B10030CB81 /* OGLint.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AAF018192555B10030CB81 /* OGLint.m */; };
-		04AAF01D192556080030CB81 /* OGLchar.h in Headers */ = {isa = PBXBuildFile; fileRef = 04AAF01B192556080030CB81 /* OGLchar.h */; };
-		04AAF01E192556080030CB81 /* OGLchar.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AAF01C192556080030CB81 /* OGLchar.m */; };
-		04C2E75B1925A07E0084B5C9 /* OGLfloat.h in Headers */ = {isa = PBXBuildFile; fileRef = 04C2E7591925A07E0084B5C9 /* OGLfloat.h */; };
-		04C2E75C1925A07E0084B5C9 /* OGLfloat.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C2E75A1925A07E0084B5C9 /* OGLfloat.m */; };
+		04C2E7621925A7CD0084B5C9 /* OGLDataArray.h in Headers */ = {isa = PBXBuildFile; fileRef = 04C2E7601925A7CD0084B5C9 /* OGLDataArray.h */; };
+		04C2E7631925A7CD0084B5C9 /* OGLDataArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C2E7611925A7CD0084B5C9 /* OGLDataArray.m */; };
 		04E920D319246A490094924E /* OGLShader.h in Headers */ = {isa = PBXBuildFile; fileRef = 04E920D119246A490094924E /* OGLShader.h */; };
 		04E920D419246A490094924E /* OGLShader.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E920D219246A490094924E /* OGLShader.m */; };
 		04E920D719246B5B0094924E /* OGLVertexShader.h in Headers */ = {isa = PBXBuildFile; fileRef = 04E920D519246B5B0094924E /* OGLVertexShader.h */; };
@@ -81,16 +73,8 @@
 		049748111924561F00F66785 /* OGLFPSTimeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OGLFPSTimeController.m; sourceTree = "<group>"; };
 		04AAF007192553090030CB81 /* OGLVertexBufferObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OGLVertexBufferObject.h; sourceTree = "<group>"; };
 		04AAF008192553090030CB81 /* OGLVertexBufferObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OGLVertexBufferObject.m; sourceTree = "<group>"; };
-		04AAF00F192554680030CB81 /* OGLGLPrimitive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OGLGLPrimitive.h; sourceTree = "<group>"; };
-		04AAF010192554680030CB81 /* OGLGLPrimitive.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OGLGLPrimitive.m; sourceTree = "<group>"; };
-		04AAF0131925548A0030CB81 /* OGLuint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OGLuint.h; sourceTree = "<group>"; };
-		04AAF0141925548A0030CB81 /* OGLuint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OGLuint.m; sourceTree = "<group>"; };
-		04AAF017192555B10030CB81 /* OGLint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OGLint.h; sourceTree = "<group>"; };
-		04AAF018192555B10030CB81 /* OGLint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OGLint.m; sourceTree = "<group>"; };
-		04AAF01B192556080030CB81 /* OGLchar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OGLchar.h; sourceTree = "<group>"; };
-		04AAF01C192556080030CB81 /* OGLchar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OGLchar.m; sourceTree = "<group>"; };
-		04C2E7591925A07E0084B5C9 /* OGLfloat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OGLfloat.h; sourceTree = "<group>"; };
-		04C2E75A1925A07E0084B5C9 /* OGLfloat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OGLfloat.m; sourceTree = "<group>"; };
+		04C2E7601925A7CD0084B5C9 /* OGLDataArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OGLDataArray.h; sourceTree = "<group>"; };
+		04C2E7611925A7CD0084B5C9 /* OGLDataArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OGLDataArray.m; sourceTree = "<group>"; };
 		04E920D119246A490094924E /* OGLShader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OGLShader.h; sourceTree = "<group>"; };
 		04E920D219246A490094924E /* OGLShader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OGLShader.m; sourceTree = "<group>"; };
 		04E920D519246B5B0094924E /* OGLVertexShader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OGLVertexShader.h; sourceTree = "<group>"; };
@@ -171,6 +155,8 @@
 				0497480F1924561F00F66785 /* OGLDisplay.m */,
 				049748101924561F00F66785 /* OGLFPSTimeController.h */,
 				049748111924561F00F66785 /* OGLFPSTimeController.m */,
+				04C2E7601925A7CD0084B5C9 /* OGLDataArray.h */,
+				04C2E7611925A7CD0084B5C9 /* OGLDataArray.m */,
 				04C2E75F1925A1020084B5C9 /* OpenGL Objects */,
 				049747DA192455C300F66785 /* Supporting Files */,
 			);
@@ -267,23 +253,6 @@
 			path = pkgconfig;
 			sourceTree = "<group>";
 		};
-		04C2E75D1925A0C70084B5C9 /* Primitive Wrappers */ = {
-			isa = PBXGroup;
-			children = (
-				04AAF00F192554680030CB81 /* OGLGLPrimitive.h */,
-				04AAF010192554680030CB81 /* OGLGLPrimitive.m */,
-				04AAF0131925548A0030CB81 /* OGLuint.h */,
-				04AAF0141925548A0030CB81 /* OGLuint.m */,
-				04AAF017192555B10030CB81 /* OGLint.h */,
-				04AAF018192555B10030CB81 /* OGLint.m */,
-				04AAF01B192556080030CB81 /* OGLchar.h */,
-				04AAF01C192556080030CB81 /* OGLchar.m */,
-				04C2E7591925A07E0084B5C9 /* OGLfloat.h */,
-				04C2E75A1925A07E0084B5C9 /* OGLfloat.m */,
-			);
-			name = "Primitive Wrappers";
-			sourceTree = "<group>";
-		};
 		04C2E75E1925A0E90084B5C9 /* Shader Objects */ = {
 			isa = PBXGroup;
 			children = (
@@ -301,7 +270,6 @@
 			isa = PBXGroup;
 			children = (
 				04C2E75E1925A0E90084B5C9 /* Shader Objects */,
-				04C2E75D1925A0C70084B5C9 /* Primitive Wrappers */,
 				04AAF007192553090030CB81 /* OGLVertexBufferObject.h */,
 				04AAF008192553090030CB81 /* OGLVertexBufferObject.m */,
 			);
@@ -315,18 +283,14 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04C2E75B1925A07E0084B5C9 /* OGLfloat.h in Headers */,
-				04AAF011192554680030CB81 /* OGLGLPrimitive.h in Headers */,
 				04AAF009192553090030CB81 /* OGLVertexBufferObject.h in Headers */,
 				049748161924561F00F66785 /* OGLFPSTimeController.h in Headers */,
 				049748091924561200F66785 /* glfw3.h in Headers */,
 				04E920D319246A490094924E /* OGLShader.h in Headers */,
-				04AAF0151925548A0030CB81 /* OGLuint.h in Headers */,
 				04E920D719246B5B0094924E /* OGLVertexShader.h in Headers */,
-				04AAF019192555B10030CB81 /* OGLint.h in Headers */,
 				049748121924561F00F66785 /* OGLApp.h in Headers */,
-				04AAF01D192556080030CB81 /* OGLchar.h in Headers */,
 				049748141924561F00F66785 /* OGLDisplay.h in Headers */,
+				04C2E7621925A7CD0084B5C9 /* OGLDataArray.h in Headers */,
 				04E920DB19246B6D0094924E /* OGLFragmentShader.h in Headers */,
 				0497480A1924561200F66785 /* glfw3native.h in Headers */,
 			);
@@ -414,15 +378,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				049748131924561F00F66785 /* OGLApp.m in Sources */,
-				04C2E75C1925A07E0084B5C9 /* OGLfloat.m in Sources */,
-				04AAF012192554680030CB81 /* OGLGLPrimitive.m in Sources */,
 				049748151924561F00F66785 /* OGLDisplay.m in Sources */,
-				04AAF0161925548A0030CB81 /* OGLuint.m in Sources */,
-				04AAF01A192555B10030CB81 /* OGLint.m in Sources */,
 				049748171924561F00F66785 /* OGLFPSTimeController.m in Sources */,
 				04E920DC19246B6D0094924E /* OGLFragmentShader.m in Sources */,
+				04C2E7631925A7CD0084B5C9 /* OGLDataArray.m in Sources */,
 				04AAF00A192553090030CB81 /* OGLVertexBufferObject.m in Sources */,
-				04AAF01E192556080030CB81 /* OGLchar.m in Sources */,
 				04E920D419246A490094924E /* OGLShader.m in Sources */,
 				04E920D819246B5B0094924E /* OGLVertexShader.m in Sources */,
 			);

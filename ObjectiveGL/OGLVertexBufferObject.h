@@ -12,6 +12,12 @@
 
 @property (nonatomic, readonly) GLuint pointer;
 
-@property (nonatomic, readonly, strong) NSArray* data;
+@property (nonatomic, readonly, strong) OGLDataArray* data;
+
+- (instancetype)initWithArray:(void*) arr ofSize:(GLuint) size;
+
+-(void) uploadWithUsage:(GLenum) usage;
+-(void) bind;
+-(void) bindAndUploadWithUsage:(GLenum) usage;
 
 @end
