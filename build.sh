@@ -25,4 +25,5 @@ xcodebuild -project ./ObjectiveGL.xcodeproj -scheme ObjectiveGL -configuration R
 mkdir ./lib ./include > /dev/null 2>&1
 cp ./Build/libObjectiveGL.a ./lib/
 cp ./ObjectiveGL/*.h ./include/
+cp ./ObjectiveGL/GLFW/include/GLFW/*.h ./include/
 echo "Done."
