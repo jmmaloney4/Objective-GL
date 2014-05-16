@@ -79,6 +79,7 @@
 		04C2E7611925A7CD0084B5C9 /* OGLDataArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OGLDataArray.m; sourceTree = "<group>"; };
 		04C2E7641925AC210084B5C9 /* OGLShaderProgram.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OGLShaderProgram.h; sourceTree = "<group>"; };
 		04C2E7651925AC210084B5C9 /* OGLShaderProgram.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OGLShaderProgram.m; sourceTree = "<group>"; };
+		04D74A701925B50400057E5E /* build.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; name = build.sh; path = ../build.sh; sourceTree = "<group>"; };
 		04E920D119246A490094924E /* OGLShader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OGLShader.h; sourceTree = "<group>"; };
 		04E920D219246A490094924E /* OGLShader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OGLShader.m; sourceTree = "<group>"; };
 		04E920D519246B5B0094924E /* OGLVertexShader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OGLVertexShader.h; sourceTree = "<group>"; };
@@ -168,6 +169,7 @@
 		049747DA192455C300F66785 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				04D74A701925B50400057E5E /* build.sh */,
 				049747FA1924561200F66785 /* GLFW */,
 				049747DB192455C300F66785 /* ObjectiveGL-Prefix.pch */,
 			);
