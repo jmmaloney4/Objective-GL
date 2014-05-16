@@ -7,6 +7,7 @@
 //
 
 #import "OGLchar.h"
+#import "OGLGLPrimitive.h"
 
 @implementation OGLchar
 

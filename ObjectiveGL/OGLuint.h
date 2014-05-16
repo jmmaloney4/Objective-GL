@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import "glfw3.h"
+#import "OGLGLPrimitive.h"
 
 @interface OGLuint : OGLGLPrimitive
 

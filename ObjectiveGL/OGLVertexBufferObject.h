@@ -12,6 +12,6 @@
 
 @property (nonatomic, readonly) GLuint pointer;
 
-
+@property (nonatomic, readonly, strong) NSArray* data;
 
 @end

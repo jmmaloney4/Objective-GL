@@ -7,6 +7,7 @@
 //
 
 #import "OGLuint.h"
+#import "OGLGLPrimitive.h"
 
 @implementation OGLuint
 
