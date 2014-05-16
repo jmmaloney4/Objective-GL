@@ -51,10 +51,6 @@
         if (status != GL_TRUE) {
             return nil;
         }
-
-        // link the shader
-        glLinkProgram(self.shader);
-
     }
     return self;
 }
