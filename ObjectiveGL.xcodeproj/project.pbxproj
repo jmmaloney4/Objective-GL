@@ -159,8 +159,6 @@
 				0497480F1924561F00F66785 /* OGLDisplay.m */,
 				049748101924561F00F66785 /* OGLFPSTimeController.h */,
 				049748111924561F00F66785 /* OGLFPSTimeController.m */,
-				04C2E7601925A7CD0084B5C9 /* OGLDataArray.h */,
-				04C2E7611925A7CD0084B5C9 /* OGLDataArray.m */,
 				04C2E75F1925A1020084B5C9 /* OpenGL Objects */,
 				049747DA192455C300F66785 /* Supporting Files */,
 			);
@@ -278,6 +276,8 @@
 				04C2E75E1925A0E90084B5C9 /* Shader Objects */,
 				04AAF007192553090030CB81 /* OGLVertexBufferObject.h */,
 				04AAF008192553090030CB81 /* OGLVertexBufferObject.m */,
+				04C2E7601925A7CD0084B5C9 /* OGLDataArray.h */,
+				04C2E7611925A7CD0084B5C9 /* OGLDataArray.m */,
 			);
 			name = "OpenGL Objects";
 			sourceTree = "<group>";
